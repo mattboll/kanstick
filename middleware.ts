@@ -1,5 +1,25 @@
-export { auth as middleware } from "@/auth";
-// TODO : we want security for uploaded files too
+import { NextResponse } from "next/server";
+import { i18nMiddleware } from "./i18nMiddleware";
+import { auth } from "@/auth";
+
+export default auth((req) => {
+  const isAuthenticated = !!req.auth;
+  if (
+    !isAuthenticated &&
+    req.nextUrl.pathname !== "/" &&
+    req.nextUrl.pathname !== "/fr" &&
+    req.nextUrl.pathname !== "/en"
+  )
+    return Response.redirect(new URL("/", req.url));
+
+  const i18nResponse = i18nMiddleware(req);
+  if (i18nResponse.status !== 200) {
+    return i18nResponse;
+  }
+
+  return NextResponse.next();
+});
+
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico|static/).*)"],
+  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|static/).*)"],
 };

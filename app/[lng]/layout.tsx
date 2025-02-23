@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
+import { dir } from "i18next";
+import { languages } from "../i18n/settings";
+
+export async function generateStaticParams() {
+  return languages.map((lng) => ({ lng }));
+}
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,13 +23,16 @@ export const metadata: Metadata = {
   description: "An other kanban app",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{ lng: string }>;
 }>) {
+  const { lng } = await params;
   return (
-    <html lang="en">
+    <html lang="{lng}" dir={dir(lng)}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
