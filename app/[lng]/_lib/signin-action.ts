@@ -2,4 +2,7 @@
 
 import { signIn as rawSignIn } from "@/auth";
 
-export const signIn = rawSignIn.bind(null, "keycloak");
+export const signIn = rawSignIn.bind(null, "keycloak", {
+  redirect: true,
+  redirectTo: "/home",
+});

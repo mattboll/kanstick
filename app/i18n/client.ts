@@ -5,6 +5,7 @@ import i18next from "i18next";
 import {
   initReactI18next,
   useTranslation as useTranslationOrg,
+  UseTranslationOptions,
 } from "react-i18next";
 import { useCookies } from "react-cookie";
 import resourcesToBackend from "i18next-resources-to-backend";
@@ -31,7 +32,11 @@ i18next
     preload: runsOnServerSide ? languages : [],
   });
 
-export function useTranslation(lng: string, ns?: string, options?: {}) {
+export function useTranslation(
+  lng: string,
+  ns?: string,
+  options?: UseTranslationOptions<undefined>
+) {
   const [cookies, setCookie] = useCookies([cookieName]);
   const ret = useTranslationOrg(ns, options);
   const { i18n } = ret;
@@ -54,7 +59,7 @@ export function useTranslation(lng: string, ns?: string, options?: {}) {
     useEffect(() => {
       if (cookies.i18next === lng) return;
       setCookie(cookieName, lng, { path: "/" });
-    }, [lng, cookies.i18next]);
+    }, [lng, cookies.i18next, setCookie]);
   }
   return ret;
 }

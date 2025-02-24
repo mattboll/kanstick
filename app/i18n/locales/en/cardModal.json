@@ -1,0 +1,20 @@
+{
+  "description": "Description",
+  "addDescription": "Add a detailed description...",
+  "save": "Save",
+  "cancel": "Cancel",
+  "addDescriptionPlaceholder": "Add a detailed description...",
+  "duplicate": "Duplicate",
+  "move": "Move",
+  "tag": "Tag",
+  "members": "Members",
+  "join": "Join",
+  "checklist": "Checklist",
+  "date": "Date",
+  "attachment": "Attachment",
+  "archive": "Archive",
+  "delete": "Delete",
+  "share": "Share",
+  "comments": "Comments",
+  "commentsPlaceholder": "Comments will be available soon"
+}

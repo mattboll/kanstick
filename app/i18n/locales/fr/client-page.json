@@ -1,7 +1,0 @@
-{
-  "title": "Page client",
-  "counter_one": "un select",
-  "counter_other": "{{count}} selectionné",
-  "counter_zero": "aucun selected",
-  "back-to-home": "retour to home"
-}

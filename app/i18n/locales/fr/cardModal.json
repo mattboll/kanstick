@@ -1,0 +1,20 @@
+{
+  "description": "Description",
+  "addDescription": "Ajouter une description détaillée...",
+  "save": "Enregistrer",
+  "cancel": "Annuler",
+  "addDescriptionPlaceholder": "Ajouter une description détaillée...",
+  "duplicate": "Dupliquer",
+  "move": "Déplacer",
+  "tag": "Tag",
+  "members": "Membres",
+  "join": "Rejoindre",
+  "checklist": "Checklist",
+  "date": "Date",
+  "attachment": "Pièce jointe",
+  "archive": "Archiver",
+  "delete": "Supprimer",
+  "share": "Partager",
+  "comments": "Commentaires",
+  "commentsPlaceholder": "Les commentaires seront disponibles prochainement"
+}

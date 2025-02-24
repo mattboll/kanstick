@@ -1,0 +1,37 @@
+{
+  "title": "Kanstick",
+  "hero": {
+    "subtitle": "Organize your pjocets efficientlà with Kanstick, an open-source collaborative and intuitive project management solution",
+    "cta": {
+      "start": "View on GitHub",
+      "demo": "View Demo"
+    }
+  },
+  "features": {
+    "title": "Key Features",
+    "cards": {
+      "kanban": {
+        "title": "Kanban Boards",
+        "description": "Visualize and manage your tasks with customizable kanban boards"
+      },
+      "collaboration": {
+        "title": "Real-time Collaboration",
+        "description": "Work with your team seamlessly and efficiently"
+      },
+      "responsive": {
+        "title": "Responsive App",
+        "description": "Access your projects on all your devices"
+      },
+      "security": {
+        "title": "Advanced Security",
+        "description": "Your data is protected with end-to-end encryption"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to deploy your own instance?",
+    "description": "Kanstick is an open-source project you can self-host. Check our documentation to get started.",
+    "button": "Documentation"
+  },
+  "accessProjectSettings": "Access project {{projectName}} settings"
+}

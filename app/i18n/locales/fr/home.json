@@ -1,0 +1,37 @@
+{
+  "title": "Kanstick",
+  "hero": {
+    "subtitle": "Organisez vos projets efficacement avec Kanstick, votre solution de gestion de projet collaborative et intuitive",
+    "cta": {
+      "start": "Voir sur GitHub",
+      "demo": "Voir la démo"
+    }
+  },
+  "features": {
+    "title": "Fonctionnalités principales",
+    "cards": {
+      "kanban": {
+        "title": "Tableaux Kanban",
+        "description": "Visualisez et gérez vos tâches avec des tableaux kanban personnalisables"
+      },
+      "collaboration": {
+        "title": "Collaboration en temps réel",
+        "description": "Travaillez en équipe de manière transparente et efficace"
+      },
+      "responsive": {
+        "title": "Application responsive",
+        "description": "Accédez à vos projets sur tous vos appareils"
+      },
+      "security": {
+        "title": "Sécurité avancée",
+        "description": "Vos données sont protégées avec un chiffrement de bout en bout"
+      }
+    }
+  },
+  "cta": {
+    "title": "Prêt à déployer votre propre instance ?",
+    "description": "Kanstick est un projet open source que vous pouvez héberger vous-même. Consultez notre documentation pour commencer.",
+    "button": "Documentation"
+  },
+  "accessProjectSettings": "Accéder aux paramètres du projet {{projectName}}"
+}

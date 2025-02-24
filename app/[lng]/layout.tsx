@@ -34,9 +34,10 @@ export default async function RootLayout({
   return (
     <html lang="{lng}" dir={dir(lng)}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-800 min-h-screen`}
       >
         {children}
+        <div id="modal-root" />
       </body>
     </html>
   );

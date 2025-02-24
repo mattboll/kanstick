@@ -1,7 +1,9 @@
 {
-  "title": "Bonjour!",
   "signout": "Se déconnecter",
-  "languageSwitcher": "Changer de {{lng}} à: ",
-  "to-second-page": "Vers la deuxième page",
-  "to-client-page": "Vers la page client"
+  "add": "Ajouter",
+  "adding": "Ajout en cours...",
+  "create_new_project": "Créer un nouveau projet",
+  "project_name": "Nom du projet",
+  "create_project": "Créer un projet",
+  "creating": "Création en cours..."
 }

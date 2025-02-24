@@ -18,4 +18,16 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+
+  background-image: url("https://trello-backgrounds.s3.amazonaws.com/50301bb2716f89e83c413cba/2048x2048/bf5bedd2ffab6a894e0d122ae43f40bf/wallpaper.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

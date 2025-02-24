@@ -1,6 +1,11 @@
 import { NextResponse } from "next/server";
 import { i18nMiddleware } from "./i18nMiddleware";
-import { auth } from "@/auth";
+import authConfig from "./auth.config";
+import NextAuth from "next-auth";
+
+const { auth } = NextAuth({
+  ...authConfig,
+});
 
 export default auth((req) => {
   const isAuthenticated = !!req.auth;

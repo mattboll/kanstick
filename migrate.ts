@@ -21,7 +21,7 @@ async function runMigrations() {
     console.log("Migrations exécutées avec succès");
   } catch (error) {
     console.error("Erreur lors de l'exécution des migrations :", error);
-    process.exit(1); // Arrête le processus en cas d'erreur
+    process.exit(1);
   } finally {
     await client.end();
   }

@@ -1,0 +1,9 @@
+{
+  "boardSettingsTitle": "Paramètres du tableau",
+  "close": "Fermer",
+  "deleteBoard": "Supprimer le tableau",
+  "confirmDelete": "Confirmer la suppression",
+  "confirmDeleteMessage": "Êtes-vous sûr de vouloir supprimer ce tableau ? Cette action est irréversible.",
+  "cancel": "Annuler",
+  "confirm": "Confirmer"
+}

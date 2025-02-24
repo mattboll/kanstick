@@ -1,0 +1,9 @@
+{
+  "projectSettingsTitle": "Paramètre de {{projectName}}",
+  "close": "Fermer",
+  "deleteProject": "Supprimer le projet",
+  "confirmDelete": "Confirmer la suppression",
+  "confirmDeleteMessage": "Êtes-vous sûr de vouloir supprimer ce projet ? Cette action est irréversible.",
+  "cancel": "Annuler",
+  "confirm": "Confirmer"
+}

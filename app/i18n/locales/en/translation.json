@@ -1,7 +1,9 @@
 {
-  "title": "Hi there!",
   "signout": "Sign out",
-  "languageSwitcher": "Switch from {{lng}} to: ",
-  "to-second-page": "To second page",
-  "to-client-page": "To client page"
+  "add": "Add",
+  "adding": "Adding...",
+  "create_new_project": "Create new project",
+  "project_name": "Project name",
+  "create_project": "Create project",
+  "creating": "Creating..."
 }

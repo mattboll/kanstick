@@ -1,0 +1,9 @@
+{
+  "boardSettingsTitle": "Board Settings",
+  "close": "Close",
+  "deleteBoard": "Delete Board",
+  "confirmDelete": "Confirm Delete",
+  "confirmDeleteMessage": "Are you sure you want to delete this board? This action is irreversible.",
+  "cancel": "Cancel",
+  "confirm": "Confirm"
+}

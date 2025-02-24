@@ -1,7 +1,9 @@
-import nextAuth from "next-auth";
-import Keycloak from "next-auth/providers/keycloak";
+import NextAuth from "next-auth";
+import PostgresAdapter from "@auth/pg-adapter";
+import authConfig from "./auth.config";
+import pool from "./lib/db";
 
-export const { handlers, auth, signIn, signOut } = nextAuth({
-  debug: process.env.NODE_ENV === "development",
-  providers: [Keycloak],
+export const { auth, handlers, signIn, signOut } = NextAuth({
+  adapter: PostgresAdapter(pool),
+  ...authConfig,
 });
